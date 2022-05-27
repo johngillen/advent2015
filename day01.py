@@ -1,5 +1,3 @@
-import readline
-
 f = open("day01.input")
 lines = f.readlines()
 
