@@ -1,6 +1,3 @@
-from bisect import bisect_right
-
-
 f = open("day06.input")
 lines = [line.rstrip() for line in f.readlines()]
 
