@@ -1,7 +1,7 @@
 from enum import unique
 
 
-f = open("day03.input")
+f = open("input/day03.input")
 lines = f.readlines()
 
 houses = [(0, 0)]

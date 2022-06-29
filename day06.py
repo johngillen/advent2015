@@ -1,4 +1,4 @@
-f = open("day06.input")
+f = open("input/day06.input")
 lines = [line.rstrip() for line in f.readlines()]
 
 lit = 0

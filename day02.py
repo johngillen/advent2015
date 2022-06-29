@@ -1,4 +1,4 @@
-f = open("day02.input")
+f = open("input/day02.input")
 lines = f.readlines()
 
 paper = 0

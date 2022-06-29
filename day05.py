@@ -1,6 +1,6 @@
 import re as regex
 
-f = open("day05.input")
+f = open("input/day05.input")
 lines = f.readlines()
 
 nice = 0

@@ -1,6 +1,9 @@
 import hashlib as hash
 
-input = 'yzbqklnj'
+f = open("input/day07.input")
+lines = [line.rstrip() for line in f.readlines()]
+
+input = lines[0]
 adventcoin = hash.md5()
 
 part1 = 0

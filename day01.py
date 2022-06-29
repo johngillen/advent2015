@@ -1,4 +1,4 @@
-f = open("day01.input")
+f = open("input/day01.input")
 lines = f.readlines()
 
 # santa starts at floor 0
