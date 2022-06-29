@@ -28,8 +28,8 @@ def evaluate(wire):
     else:
         value = evaluate(circuit[wire][0])
     
-    circuit[wire] = value
-    return circuit[wire]
+    circuit[wire] = value # memoization
+    return value
 
 def convert(word):
     try:
@@ -37,8 +37,16 @@ def convert(word):
     except ValueError:
         return word
 
-for line in lines:
-    words = list(map(convert, line.split()))
-    circuit[words[-1]] = words[:-2]
+def reset():
+    for line in lines:
+        words = list(map(convert, line.split()))
+        circuit[words[-1]] = words[:-2]
 
-print('part 1: ' + str(evaluate('a')))
+reset()
+part1 = evaluate('a')
+reset()
+circuit['b'] = part1
+part2 = evaluate('a')
+
+print('part 1: ' + str(part1))
+print('part 2: ' + str(part2))
