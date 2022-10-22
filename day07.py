@@ -1,4 +1,4 @@
-f = open("input/day07.input")
+f = open("input/day07.txt")
 lines = [line.rstrip() for line in f.readlines()]
 
 circuit = {}

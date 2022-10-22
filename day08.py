@@ -1,6 +1,6 @@
 import re as regex
 
-f = open("input/day08.input")
+f = open("input/day08.txt")
 lines = [line.rstrip() for line in f.readlines()]
 
 code = sum([len(line) for line in lines])
