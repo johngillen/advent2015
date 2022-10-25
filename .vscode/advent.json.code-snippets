@@ -6,7 +6,7 @@
 			"lines = [line.rstrip() for line in f.readlines()]",
 			"",
 			"for line in lines:",
-			"\t${2}",
+			"\t${2:print(line)}",
 			"",
 			"part1 = 0",
 			"part2 = 0",
