@@ -1,7 +1,7 @@
 import re
 import json
 
-f = open("input/day12.txt")
+f = open('input/day12.txt')
 lines = [line.rstrip() for line in f.readlines()]
 f.seek(0)
 input = json.load(f)

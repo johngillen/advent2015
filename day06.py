@@ -1,4 +1,4 @@
-f = open("input/day06.txt")
+f = open('input/day06.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 lit = 0
@@ -38,5 +38,5 @@ for i in range(len(newlights)):
         brightness += newlights[j][i]
         
 
-print("part 1: " + str(lit))
-print("part 2: " + str(brightness))
+print('part 1: ' + str(lit))
+print('part 2: ' + str(brightness))

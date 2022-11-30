@@ -1,4 +1,4 @@
-f = open("input/day16.txt")
+f = open('input/day16.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 ticker = \

@@ -1,6 +1,6 @@
 from itertools import permutations
 
-f = open("input/day13.txt")
+f = open('input/day13.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 party = {}

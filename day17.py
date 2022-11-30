@@ -1,4 +1,4 @@
-f = open("input/day17.txt")
+f = open('input/day17.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 containers = [int(line) for line in lines]

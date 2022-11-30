@@ -1,4 +1,4 @@
-f = open("input/day14.txt")
+f = open('input/day14.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 class reindeer:

@@ -1,6 +1,6 @@
 from itertools import permutations
 
-f = open("input/day09.txt")
+f = open('input/day09.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 nodes = []

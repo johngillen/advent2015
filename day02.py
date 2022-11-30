@@ -1,4 +1,4 @@
-f = open("input/day02.txt")
+f = open('input/day02.txt')
 lines = f.readlines()
 
 paper = 0
@@ -14,5 +14,5 @@ for line in lines:
     paper += faces + trim
     ribbon += sum(sorted([l, w, h])[:-1]) * 2 + (l * w * h)
 
-print("part 1: " + str(paper))
-print("part 2: " + str(ribbon))
+print('part 1: ' + str(paper))
+print('part 2: ' + str(ribbon))

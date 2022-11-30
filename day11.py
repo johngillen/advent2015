@@ -1,6 +1,6 @@
 import re
 
-f = open("input/day11.txt")
+f = open('input/day11.txt')
 input = f.readline().strip()
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'

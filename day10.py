@@ -1,6 +1,6 @@
 import re
 
-f = open("input/day10.txt")
+f = open('input/day10.txt')
 input = f.readline().strip()
 
 part1 = input

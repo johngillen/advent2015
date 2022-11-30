@@ -1,4 +1,4 @@
-f = open("input/day01.txt")
+f = open('input/day01.txt')
 lines = f.readlines()
 
 # santa starts at floor 0
@@ -17,5 +17,5 @@ for line in lines:
             basement = i
         i += 1
 
-print("part 1: " + str(floor))
-print("part 2: " + str(basement))
+print('part 1: ' + str(floor))
+print('part 2: ' + str(basement))

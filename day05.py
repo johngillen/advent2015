@@ -1,6 +1,6 @@
 import re as regex
 
-f = open("input/day05.txt")
+f = open('input/day05.txt')
 lines = f.readlines()
 
 nice = 0
@@ -17,5 +17,5 @@ for line in lines:
         regex.search(r'(.)[^\1]\1', line) != None):
             newnice += 1
 
-print("part 1: " + str(nice))
-print("part 2: " + str(newnice))
+print('part 1: ' + str(nice))
+print('part 2: ' + str(newnice))

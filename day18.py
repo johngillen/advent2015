@@ -1,4 +1,4 @@
-f = open("input/day18.txt")
+f = open('input/day18.txt')
 lines = [line.rstrip() for line in f.readlines()]
 
 grid = [[0] * len(lines) for i in range(len(lines))]

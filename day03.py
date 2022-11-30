@@ -1,7 +1,7 @@
 from enum import unique
 
 
-f = open("input/day03.txt")
+f = open('input/day03.txt')
 lines = f.readlines()
 
 houses = [(0, 0)]
@@ -41,5 +41,5 @@ for line in lines:
 houses = len(list(set(houses)))
 santa = len(list(set(santa + robosanta)))
 
-print("part 1: " + str(houses))
-print("part 2: " + str(santa))
+print('part 1: ' + str(houses))
+print('part 2: ' + str(santa))
